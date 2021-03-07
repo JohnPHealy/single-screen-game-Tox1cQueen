@@ -206,6 +206,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1309495486 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 6346638274912053017, guid: 65446aa79524ae246a0d6b62287fe7bf, type: 3}
+  m_PrefabInstance: {fileID: 6346638276324158663}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1107308170470189782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -213,6 +218,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 305103915893913334, guid: 411d52ce367adb14bb58de0d53a20091, type: 3}
+      propertyPath: jumpForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 305103915893913334, guid: 411d52ce367adb14bb58de0d53a20091, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 1309495486}
+    - target: {fileID: 305103915893913334, guid: 411d52ce367adb14bb58de0d53a20091, type: 3}
+      propertyPath: groundLayers.m_Bits
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107308171802450608, guid: 411d52ce367adb14bb58de0d53a20091, type: 3}
+      propertyPath: m_GravityScale
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1107308171802450611, guid: 411d52ce367adb14bb58de0d53a20091, type: 3}
       propertyPath: m_Name
       value: Player
