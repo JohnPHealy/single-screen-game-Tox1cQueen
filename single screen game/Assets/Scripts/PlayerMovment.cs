@@ -10,6 +10,7 @@ public class PlayerMovment : MonoBehaviour
     [SerializeField] private float moveSpeed, maxSpeed, jumpForce;
     [SerializeField] private Collider2D groundCheck;
     [SerializeField] private LayerMask groundLayers;
+    [SerializeField] private bool cancelJumpEnabled;
 
     private float moveDir;
     private Rigidbody2D myRB;
@@ -54,6 +55,11 @@ public class PlayerMovment : MonoBehaviour
                 myRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
                 canJump = false;
             }
+        }
+        //mini jump
+        if (context.canceled && cancelJumpEnabled)
+        {
+            myRB.velocity = new Vector2(myRB.velocity.x, y: 0f);
         }
     }
 }

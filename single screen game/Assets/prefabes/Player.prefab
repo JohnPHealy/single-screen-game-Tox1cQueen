@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 210587634940605966}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,10 +170,11 @@ MonoBehaviour:
   moveSpeed: 100
   maxSpeed: 100
   jumpForce: 50
-  groundCheck: {fileID: 0}
+  groundCheck: {fileID: 2411335641017719673}
   groundLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 8
+  cancelJumpEnabled: 0
 --- !u!114 &210587634940605966
 MonoBehaviour:
   m_ObjectHideFlags: 0
