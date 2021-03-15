@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6216309402295692686}
   - component: {fileID: 6916012411987029548}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: spritesheet_players_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 1107308171802450608}
   - component: {fileID: 305103915893913334}
   - component: {fileID: 210587634940605966}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -167,13 +167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9384b1248837910479c54b574b421ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 100
-  maxSpeed: 100
+  moveSpeed: 90
+  maxSpeed: 90
   jumpForce: 50
   groundCheck: {fileID: 2411335641017719673}
   groundLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
   cancelJumpEnabled: 0
 --- !u!114 &210587634940605966
 MonoBehaviour:
@@ -247,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071894220292073570}
   - component: {fileID: 2411335641017719673}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
