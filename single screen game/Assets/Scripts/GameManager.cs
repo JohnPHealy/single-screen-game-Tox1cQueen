@@ -10,10 +10,22 @@ public class GameManager : MonoBehaviour
      private void Start()
         {
             startPos = player.transform.position;
+               Time.timeScale = 0;
+
             }
 
              public void RespawnPlayer()
                 {
                     player.transform.position = startPos;
                 }
+
+               public void PauseGame()
+               {
+               Time.timeScale = 0;
+               }
+
+                public void UnPauseGame()
+                {
+                 Time.timeScale = 1;
+                 }
 }
