@@ -833,7 +833,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.340332, y: -1.4601406, z: 0.18283463}
+  m_LocalPosition: {x: -16.339954, y: -1.4601406, z: 0.18283463}
   m_LocalScale: {x: 1634.7605, y: 11.2499895, z: 8.409948}
   m_Children: []
   m_Father: {fileID: 1795745783}
@@ -9870,7 +9870,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751235483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.340332, y: -1.4601406, z: 0.18283463}
+  m_LocalPosition: {x: -16.339954, y: -1.4601406, z: 0.18283463}
   m_LocalScale: {x: 1, y: 0.56230676, z: 1}
   m_Children:
   - {fileID: 563785489}
@@ -10887,6 +10887,10 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1405792633}
+    - target: {fileID: 305103915893913334, guid: 411d52ce367adb14bb58de0d53a20091, type: 3}
+      propertyPath: cancelJumpEnabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1107308171802450611, guid: 411d52ce367adb14bb58de0d53a20091, type: 3}
       propertyPath: m_Name
       value: Player
